@@ -9,7 +9,7 @@ spring:
       server:
         git:
           #uri: file://C:\MSA_study_Git\Work\git-local-repo
-          uri: https://github.com/hariBoWoo/my-spring-cloud-config.git
+          uri: https://github.com/hariBoWoo/tmax-Final-config.git
   #          uri: file://C:\Users\Admin\Desktop\jieun\tmax\tmax_cloud\git-local-repo
   #          username: park940313@naver.com
   #          password: [password]
@@ -24,4 +24,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: info, health, busrefresh, refresh, metrics
+        include: info, health, busrefresh, refresh, metrics, beans, httptrace
