@@ -33,7 +33,7 @@ token:
 
 spring:
   rabbitmq:
-    host: rabbitmq
+    host: 3.38.100.122
     port: 15672
     username: guest
     password: guest
