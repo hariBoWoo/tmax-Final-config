@@ -32,3 +32,10 @@ process-service:
 #     driver-class-name: org.mariadb.jdbc.Driver
 #     username: admin
 #     password: rnjswlsgml!
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
